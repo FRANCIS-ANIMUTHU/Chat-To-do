@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    border:solid 1px black;
+}
+h2{
+    padding-bottom: 2%;
+}
+.box1{
+    width: 230px;
+    height: 40px;
+    background-color: yellow;
+    border:solid 1px black;
+    position: relative;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+}
+.box2{
+    width: 230px;
+    height: 40px;
+    background-color:white;
+    position: relative;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+}
+.box3{
+    width: 230px;
+    height: 40px;
+    background-color: purple;
+    border:solid 1px black;
+    position: relative;
+    flex-direction: row;
+    list-style: none;
+    padding: 2%;
+}
+input{
+    border-color: yellow;
+    height: 20px;
+}
+button{
+    background-color: green;
+    color: beige;
+    border-radius: 20%;
+    padding-top: 1%;
+
+}
